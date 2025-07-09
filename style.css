@@ -48,7 +48,6 @@ img.fimage:hover{
     transform: scale(1.05);
     z-index: 1;
 }
-}
 #wholebox{
     box-shadow: 3px 3px 3px 3px #B2BEB5;
     border-radius: 25px;

@@ -32,7 +32,7 @@ p{
 
 img.fimage {
   float: left;
-  width: 100%;
+  width: 300px;
   max-width: 300px;
   height: auto;
   border: 7px groove #966F33;
@@ -40,13 +40,23 @@ img.fimage {
   margin-left: 5px;
   margin-right: 20px;
   margin-bottom: 50px;
-  transition: transform 0.3s ease;
-  box-sizing: border-box;
-}
 
+  
+  transition: transform 0.3s ease;
+
+}
 img.fimage:hover{
     transform: scale(1.05);
     z-index: 1;
+}
+@media (max-width: 600px) {
+  img.fimage {
+    float: none;
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 90%;
+    height: auto;
+  }
 }
 
 #wholebox{

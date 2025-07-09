@@ -41,8 +41,9 @@ img.fimage {
   margin-right: 20px;
   margin-bottom: 50px;
   transition: transform 0.3s ease;
-
+  box-sizing: border-box;
 }
+
 img.fimage:hover{
     transform: scale(1.05);
     z-index: 1;
